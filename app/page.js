@@ -3,12 +3,11 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-
-      <div>Home page</div>
+    <div className='flex flex-col items-center justify-center min-h-screen'>
+      <div className='text-bold text-4xl'>Home page</div>
       <div>
-        <Link href="/about">about</Link>
-        <Link href="/productsss">productsss</Link>
+        {/* <Link href="/about">about</Link>
+        <Link href="/productsss">productsss</Link> */}
       </div>
     </div>
   )
